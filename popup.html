@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slacktack</title>
+    <link rel="stylesheet" href="popup.css">
+    <style>
+        /* Set the fixed size of the popup */
+        body {
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="popup-container">
+        <h3>Slacktack</h3>
+        <div class="input-group">
+            <label for="original-name">Original Name:</label>
+            <input type="text" id="original-name" placeholder="Channel Name">
+        </div>
+        <div class="input-group">
+            <label for="new-name">New Name:</label>
+            <input type="text" id="new-name" placeholder="Custom Name">
+        </div>
+        <button id="save">Save</button>
+        <div id="message"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

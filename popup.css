@@ -1,0 +1,56 @@
+/* popup.css */
+
+/* Gruvbox color scheme */
+:root {
+    --background: #282828;
+    --foreground: #ebdbb2;
+    --accent: #d79921;
+    --input-bg: #3c3836;
+    --input-border: #504945;
+    --button-bg: #b8bb26;
+    --button-text: #282828;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    margin: 0;
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+.popup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    color: var(--accent);
+    margin-bottom: 10px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    background-color: var(--input-bg);
+    color: var(--foreground);
+    border: 1px solid var(--input-border);
+    border-radius: 3px;
+}
+
+button {
+    width: 75%;
+    padding:1%;
+}
